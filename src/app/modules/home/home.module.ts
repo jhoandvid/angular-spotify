@@ -11,9 +11,11 @@ import { SharedModule } from '@shared//shared.module';
     HomePageComponent
   ],
   imports: [
-    SharedModule,
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    SharedModule
+  
+    
   ]
 })
 export class HomeModule { }
