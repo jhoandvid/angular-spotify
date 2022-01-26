@@ -14,15 +14,15 @@ export class SideBarComponent implements OnInit {
     defaultOptions:[], accessLink: [] }
 
 
-    customOptions:Array<any>=[]
+    customOptions:Array<any> =[]
   constructor() { }
 
   ngOnInit(): void {
     this.mainMenu.defaultOptions=[
       {
       name: 'Home',
-       icon:'uil uil-estate',
-       router:['/', 'auth']
+        icon:'uil uil-estate',
+        router:['/', 'auth']
       },
 
       {

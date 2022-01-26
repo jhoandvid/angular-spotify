@@ -115,7 +115,6 @@
 .media-player--wrapper .player-controls-inside .media-linetime {
     display: flex;
     justify-content: space-between;
-    
     font-size: 70%;
     padding: 0;
 }

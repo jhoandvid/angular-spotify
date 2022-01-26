@@ -13,7 +13,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    
+    opacity: .8;
 }
 
 .side-bar__list .list-label {
